@@ -2,6 +2,8 @@
 #include <stdint.h>
 #include <stdlib.h>
 
+#include "menu_colors.h"
+
 #define cls() printf("%c[2J", (char) 27);
 #define cursorHome() printf("%c[H", (char) 27);
 #define cursorQueryArea() printf("%c[20J", (char) 27);
